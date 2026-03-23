@@ -1,0 +1,22 @@
+/* 스와이퍼 색수정 */
+.hero .swiper-button-next {
+  color: #fff;
+}
+.hero .swiper-button-prev {
+  color: #fff;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-horizontal.swiper-pagination-bullets {
+  .swiper-pagination-bullet {
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 8px);
+  }
+}
+
+.swiper-pagination-bullet {
+  background: #fff;
+}
+
+.hero .swiper-pagination-bullets {
+  color: #fff;
+}
